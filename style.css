@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Shadows+Into+Light+Two&display=swap');
+
 :root {
     --color-1: #F9F5F0;
     --color-2: #FFE1E0;
@@ -11,4 +13,9 @@
 body {
     color: var(--color-5);
     background-color: var(--color-1);
+    font-family: "Playfair Display";
+}
+
+hr {
+    border-color: var(--color-2);
 }

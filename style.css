@@ -9,7 +9,6 @@
     --color-6: #6a040f;
 }
 
-
 body {
     color: var(--color-5);
     background-color: var(--color-1);
@@ -17,5 +16,18 @@ body {
 }
 
 hr {
-    border-color: var(--color-2);
+    border-color: var(--color-5);
+}
+
+.fancy {
+    font-family: Annie Use Your Telescope
+    var(--color-3)
+}
+.text-center {
+    text-align: center;
+    color: var(--color-5)
+}
+
+#header1 {
+    text-align: center;
 }

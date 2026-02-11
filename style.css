@@ -21,13 +21,18 @@ hr {
 
 .fancy {
     font-family: Annie Use Your Telescope
-    var(--color-3)
 }
-.text-center {
+
+.text-change {
     text-align: center;
     color: var(--color-5)
 }
 
 #header1 {
     text-align: center;
+}
+
+#header2 {
+    text-align: center;
+    background-color: var(--color-3)
 }

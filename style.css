@@ -8,8 +8,10 @@
     --color-5: #a75857;
     --color-6: #6a040f;
     --color-7: #8a2d37;
-    --color-8: #f6eae0;
+    --color-8: #ebd7c3;
     --color-9: #f9eded;
+    --color-0: #f0d5cc;
+    --color-11:#ea638c;
 }
 
 body {
@@ -17,6 +19,13 @@ body {
     background-color: var(--color-1);
     font-family: "Playfair Display";
 }
+
+.center-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto; 
+  }
 
 hr {
     border-color: var(--color-5);
@@ -45,8 +54,12 @@ nav a {
 }
 
 nav a:hover {
-    background-color: var(--color-6);
+    background-color: var(--color-5);
     color: var(--color-2)
+}
+
+a {
+    color: var(--color-11)
 }
 
 .contact-link {
@@ -74,5 +87,27 @@ nav a:hover {
 
 #header2 {
     text-align: center;
-    font-family: Annie Use Your Telescope;
+    font-size: 40px;
+    background-color: var(--color-8);
+    color: var(--color-5);
+    padding: 10px;
+    margin: 5px 0px 0px 0px
+}
+
+#header3 {
+    text-align: center;
+    font-size: 40px;
+    background-color: var(--color-3);
+    color: var(--color-5);
+    padding: 10px;
+    margin: 5px 0px 0px 0px
+}
+
+#header4 {
+    text-align: center;
+    font-size: 40px;
+    background-color: var(--color-0);
+    color: var(--color-5);
+    padding: 10px;
+    margin: 5px 0px 0px 0px
 }

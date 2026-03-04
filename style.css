@@ -12,6 +12,7 @@
     --color-9: #f9eded;
     --color-0: #f0d5cc;
     --color-11:#ea638c;
+    --color-12:#d791a5;
 }
 
 
@@ -21,10 +22,6 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 12px
-}
-
-nav {
-
 }
 
 body {
@@ -66,23 +63,36 @@ nav a {
 
 }
 
-nav a:hover {
-    background-color: var(--color-3);
-    color: var(--color-7)
-}
-
-a {
+div>p>a:visited {
     color: var(--color-11)
 }
 
+nav a:hover {
+    background-color: var(--color-3);
+    color: var(--color-6)
+}
+
+a:active {
+    color: var(--color-11)
+}
+
+p:nth-child(odd) {
+    color:#b68c62
+}
+
+
+.alink {
+    color: var(--color-12)
+}
+
 .contact-link {
-    background-color: var(--color-6);
+    background-color: var(--color-7);
     border-radius: 32px;
-    color: var(--color-3)
+    color: var(--color-8);
 }
 
 .contact-link:hover {
-    color: var(--color-7)
+    color: var(--color-6);
 }
 
 .style-change {

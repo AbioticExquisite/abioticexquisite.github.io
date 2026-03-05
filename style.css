@@ -67,6 +67,11 @@ div>p>a:visited {
     color: var(--color-11)
 }
 
+div>p , div>h3 {
+    text-align: center;
+
+}
+
 nav a:hover {
     background-color: var(--color-3);
     color: var(--color-6)
@@ -134,3 +139,21 @@ p:nth-child(odd) {
     padding: 10px;
     margin: 5px 0px 0px 0px
 }
+
+.layout {
+    display: flex;
+    gap: 20px;
+    min-height: 100vh; /* sets the height to the entire view */
+  }
+  
+  .sidebar {
+    margin: 0px 0px 0px 0px
+  }
+  
+  .main-content {
+    flex: 1;  /* fill remaining space */
+    padding: 20px;
+    margin: 0px 0px 0px 0px
+    
+  }
+  

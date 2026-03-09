@@ -25,7 +25,7 @@
 <div>
     <img class="center-image" width=250 src="https://i.pinimg.com/736x/ed/18/48/ed1848f376bf0b0f0d657b11e7632df5.jpg">
     
-    <p>Here is how to contact me, and/or who I am to expect.
+    <p>Here is how to contact me, and who I am to expect.
     </p>
     <p>
     <h3><ins><strong>Contact Me :</strong></p></ins></h3>
@@ -33,10 +33,36 @@
     <p> <iconify-icon icon="ic:twotone-email" width="24" height="24"></iconify-icon> Email: aestervil@brooklynsteamcenter.org</p>
     <p><iconify-icon icon="uim:github" width="24" height="24"></iconify-icon> Github: github.com/AbioticExquisite</p>
     <br>
-      <p><h3><ins><strong>Your Contact :</strong></p></ins></h3></p>
-    
-    <p><iconify-icon icon="mage:phone-fill" width="24" height="24"></iconify-icon> Phone: xxx-xxx-xxxx</p>
-    <p><iconify-icon icon="streamline:send-email-solid" width="14" height="14"></iconify-icon> Email: xxx@server.xxx</p>
+
+    <section>
+        <h3><ins>Your Contact :</ins></h3>
+
+        <form
+    action="https://form-to-email.steamc.workers.dev/"
+    method="post"
+        >
+         <input name="send-to" value="AEstervil@steamcenter.org" hidden>
+        
+        <label><iconify-icon icon="mage:phone-fill" width="24" height="24"></iconify-icon>Phone:</label>
+        <input type="text" placeholder="insert number here" name="phone_number">
+        <br>
+
+       <label><iconify-icon icon="icon-park-solid:edit-name" width="24" height="24"></iconify-icon>Name:</label>
+        <input type="text" placeholder="insert name here" name="full_name">
+        <br>
+
+        <label><iconify-icon icon="streamline:send-email-solid" width="24" height="24"></iconify-icon>Email:</label>
+        <input type="text" placeholder="insert email here" name="email_address">
+        <br>
+       
+    <input type="submit">
+
+    <input type="reset">
+    </form>
+    </section>
+    </p>
+
+
 </div>
 </body>
 

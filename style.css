@@ -15,8 +15,6 @@
     --color-12:#d791a5;
 }
 
-
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -64,7 +62,7 @@ nav a {
 }
 
 div>p>a:visited {
-    color: var(--color-11)
+    color: var(--color-12)
 }
 
 div>p , div>h3 {
@@ -84,7 +82,7 @@ section {
     padding: 10px;
     margin: 10px;
     background-color: var(--color-0);
-    border-radius: 10px;
+    border-radius: 20px;
 
 }
 
@@ -101,9 +99,8 @@ p:nth-child(odd) {
     color:#b68c62
 }
 
-
 .alink {
-    color: var(--color-12)
+   color: var(--color-12)
 }
 
 .contact-link {
@@ -119,6 +116,10 @@ p:nth-child(odd) {
 .style-change {
     background-color: var(--color-4);
     color: var(--color-2);
+}
+
+.textcenter {
+    text-align: center;
 }
 
 #header1 {
@@ -173,3 +174,18 @@ p:nth-child(odd) {
     
   }
   
+  @media screen and (max-width: 480px) {
+    /* Mobile Devices */
+    nav a {
+        color:#8a2d37
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    /* Tablet Devices */
+}
+
+
+@media screen and (max-width: 769px) {
+    /* Laptop/Desktop Devices */
+}

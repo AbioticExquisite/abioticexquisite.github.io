@@ -244,3 +244,7 @@ body {
         height: 100px;
      }
     }
+
+#text-smaller {
+    font-size: 15px;
+}
